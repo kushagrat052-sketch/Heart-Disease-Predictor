@@ -13,5 +13,5 @@ This project is a Data Science application built to assist medical professionals
 2. Install requirements: `pip install -r requirements.txt`
 3. Run the app: `streamlit run app.py`
 
-### Team
+### Team M
 * [kushagra Tripathi]
