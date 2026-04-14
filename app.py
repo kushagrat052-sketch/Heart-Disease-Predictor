@@ -10,9 +10,11 @@ st.title("❤️ Innovative IT: Heart Disease Risk Predictor")
 st.write("This application uses a Machine Learning model (Random Forest) to predict heart disease risk.")
 
 # 2. Load Data (Using a hosted version of the UCI dataset for speed)
+# Copy and replace the old load_data section with this:
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/dataprofessor/data/master/heart-disease-cleveland-transformed.csv"
+    # This is a guaranteed working link for the heart disease dataset
+    url = "https://raw.githubusercontent.com/amankharwal/Website-data/master/heart.csv"
     return pd.read_csv(url)
 
 df = load_data()
