@@ -14,7 +14,4 @@ This project is a Data Science application built to assist medical professionals
 3. Run the app: `streamlit run app.py`
 
 ### Team
-* [Your Name]
-* [Group Member 2]
-* [Group Member 3]
-* [Group Member 4]
+* [kushagra Tripathi]
